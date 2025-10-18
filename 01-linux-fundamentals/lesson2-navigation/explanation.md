@@ -3,9 +3,9 @@
 **Purpose:** Shows the full path of the current directory. Useful for locating yourself in the file system.
 
 **When to Use:**
-- Before running commands that depend on your current location.  
-- To copy the absolute path into scripts or other commands.  
-- To quickly check your position in deep directory structures.  
+- Before running commands that depend on your current location. 
+- To copy the absolute path into scripts or other commands. 
+- To quickly check your position in deep directory structures. 
 
 **Example:**
 
@@ -17,9 +17,9 @@ pwd
 
 ### 2. ls (list directory contents)
 
-**Purpose:** Lists files and directories in the current or a specified path.  
+**Purpose:** Lists files and directories in the current or a specified path. 
 
-**When to use:** To check folder contents, file permissions, or find a needed file.  
+**When to use:** To check folder contents, file permissions, or find a needed file. 
 
 **Examples:**
 
@@ -100,9 +100,9 @@ tree -L 2
 
 Today I practiced the basic Linux navigation commands:
 
-- **pwd** — to check the current working directory.  
-- **ls** — to list files and explore directory contents (with options `-l`, `-a`).  
-- **cd** — to move between directories efficiently (`..`, `~`, `-`).  
-- **tree** — to visualize the project structure as a tree.  
+- **pwd** — to check the current working directory. 
+- **ls** — to list files and explore directory contents (with options `-l`, `-a`). 
+- **cd** — to move between directories efficiently (`..`, `~`, `-`). 
+- **tree** — to visualize the project structure as a tree. 
 
 These commands are essential for everyday Linux work and serve as the foundation for more advanced administration and DevOps tasks.

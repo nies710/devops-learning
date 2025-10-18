@@ -1,0 +1,84 @@
+nies71090@DESKTOP-3M3EO0V:~/projects/linux-basics$ nano day3.sh
+nies71090@DESKTOP-3M3EO0V:~/projects/linux-basics$ ./day3.sh
+ Creating a single test file...
+-rw-r--r-- 1 nies71090 nies71090 0 Sep 30 18:53 test.txt
+
+ Creating two files at once...
+-rw-r--r-- 1 nies71090 nies71090 0 Sep 30 18:53 file1.txt
+-rw-r--r-- 1 nies71090 nies71090 0 Sep 30 18:53 file2.txt
+
+ Updating timestamp only if file exists (-c)
+-rw-r--r-- 1 nies71090 nies71090 0 Sep 30 18:53 file1.txt
+
+ Setting a custom timestamp for file.txt
+-rw-r--r-- 1 nies71090 nies71090 0 Jun 30 14:45 file.txt
+==== touch demo finished ====
+
+ Showing the content of a file
+Hello world!
+
+ Merging two files into one
+First file content
+Second file content
+
+ Displaying file with line numbers
+     1  line1
+     2  line2
+     3  line3
+
+ Appending one file into another
+Original text
+New entry
+==== cat demo finished ====
+
+ Preparing some files for copy practice...
+
+ Copying file.txt to backup.txt
+-rw-r--r-- 1 nies71090 nies71090 12 Sep 30 18:53 backup.txt
+-rw-r--r-- 1 nies71090 nies71090 12 Sep 30 18:53 file.txt
+
+ Copying a whole folder recursively
+dir2:
+dir1  file1.txt
+
+dir2/dir1:
+file1.txt
+
+ Copying only if newer (-u)
+total 4
+-rw-r--r-- 1 nies71090 nies71090 25 Sep 30 18:53 file.txt
+
+ Interactive copy (manual demo)
+Try this yourself: cp -i file.txt backup.txt
+It will ask: overwrite 'backup.txt'? (y/n)
+==== cp demo finished ====
+
+ Setting up files for move/rename practice...
+
+ Renaming old.txt to new.txt
+-rw-r--r-- 1 nies71090 nies71090 16 Sep 30 18:53 new.txt
+
+ Moving file.txt into demo_folder/
+total 4
+-rw-r--r-- 1 nies71090 nies71090 17 Sep 30 18:53 file.txt
+
+ Moving new.txt one level up (..)
+-rw-r--r-- 1 nies71090 nies71090   16 Sep 30 18:53 new.txt
+
+ Creating sample files and moving all *.txt into Documents/
+total 32
+-rw-r--r-- 1 nies71090 nies71090 12 Sep 30 18:53 backup.txt
+-rw-r--r-- 1 nies71090 nies71090  0 Sep 30 18:53 file1.txt
+-rw-r--r-- 1 nies71090 nies71090  0 Sep 30 18:53 file2.txt
+-rw-r--r-- 1 nies71090 nies71090 19 Sep 30 18:53 first.txt
+-rw-r--r-- 1 nies71090 nies71090 13 Sep 30 18:53 hello.txt
+-rw-r--r-- 1 nies71090 nies71090 39 Sep 30 18:53 merged.txt
+-rw-r--r-- 1 nies71090 nies71090 10 Sep 30 18:53 new_log.txt
+-rw-r--r-- 1 nies71090 nies71090 18 Sep 30 18:53 numbered.txt
+-rw-r--r-- 1 nies71090 nies71090 24 Sep 30 18:53 old_log.txt
+-rw-r--r-- 1 nies71090 nies71090  0 Sep 30 18:53 one.txt
+-rw-r--r-- 1 nies71090 nies71090 20 Sep 30 18:53 second.txt
+-rw-r--r-- 1 nies71090 nies71090  0 Sep 30 18:53 test.txt
+-rw-r--r-- 1 nies71090 nies71090  0 Sep 30 18:53 three.txt
+-rw-r--r-- 1 nies71090 nies71090  0 Sep 30 18:53 two.txt
+==== mv demo finished ====
