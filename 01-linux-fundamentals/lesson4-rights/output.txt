@@ -1,0 +1,24 @@
+Task 1: Creating myscript.sh and setting u+x permissions
+-rwxr--r-- 1 nies71090 nies71090 0 Oct 22 18:14 myscript.sh
+
+Task 2: Checking owner and group of myscript.sh
+-rwxr--r-- 1 nies71090 nies71090 0 Oct 22 18:14 myscript.sh
+
+Task 3: Assigning note.txt to user nies71090 and group devs
+-rw-r--r-- 1 nies71090 devs 0 Oct 22 18:14 note.txt
+
+Task 4: Setting numeric permissions for file and directory
+-rw-r--r-- 1 nies71090 nies71090    0 Oct 22 18:14 file1.txt
+
+dir1:
+total 0
+
+Task 5: Creating shared directory with 1777 permissions (Sticky Bit)
+drwxrwxrwt 2 nies71090 nies71090 4096 Oct 22 18:14 shared
+
+Task 6: Creating team_folder with SGID and 2775 permissions
+drwxrwsr-x 2 nies71090 devs 4096 Oct 22 18:14 team_folder
+
+Task 7: Setting umask to 077
+Current umask:
+0077
